@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1aaba8a4dd656de46bf9c0029681b5f2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1aaba8a4dd656de46bf9c0029681b5f2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1aaba8a4dd656de46bf9c0029681b5f2 = L.map(
+                "map_1aaba8a4dd656de46bf9c0029681b5f2",
+                {
+                    center: [51.509865, -0.118092],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_95762e19baf7eab810cbaa5874e75a05 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1aaba8a4dd656de46bf9c0029681b5f2);
+        
+    
+            var marker_1df32845315b2d069edc397019811101 = L.marker(
+                [51.512, -0.191],
+                {}
+            ).addTo(map_1aaba8a4dd656de46bf9c0029681b5f2);
+        
+    
+            var icon_696a469ba5863587c20e10d7d498e366 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1df32845315b2d069edc397019811101.setIcon(icon_696a469ba5863587c20e10d7d498e366);
+        
+    
+        var popup_b2ad9a6b748539de93077236021dee7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c58f6bb832f16ac791929b3e9d6e391 = $(`<div id="html_5c58f6bb832f16ac791929b3e9d6e391" style="width: 100.0%; height: 100.0%;">Westminster: 455028 cases</div>`)[0];
+                popup_b2ad9a6b748539de93077236021dee7e.setContent(html_5c58f6bb832f16ac791929b3e9d6e391);
+            
+        
+
+        marker_1df32845315b2d069edc397019811101.bindPopup(popup_b2ad9a6b748539de93077236021dee7e)
+        ;
+
+        
+    
+    
+            var marker_28c2102849cbb259941fcc456bf55495 = L.marker(
+                [51.5013, -0.1173],
+                {}
+            ).addTo(map_1aaba8a4dd656de46bf9c0029681b5f2);
+        
+    
+            var icon_ad8de54971f2eb0b6f0bf0474d067470 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28c2102849cbb259941fcc456bf55495.setIcon(icon_ad8de54971f2eb0b6f0bf0474d067470);
+        
+    
+        var popup_5a545173b7616efe916ade381f691d22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16ceddc83876acd46dac90fb442f5bc3 = $(`<div id="html_16ceddc83876acd46dac90fb442f5bc3" style="width: 100.0%; height: 100.0%;">Lambeth: 292178 cases</div>`)[0];
+                popup_5a545173b7616efe916ade381f691d22.setContent(html_16ceddc83876acd46dac90fb442f5bc3);
+            
+        
+
+        marker_28c2102849cbb259941fcc456bf55495.bindPopup(popup_5a545173b7616efe916ade381f691d22)
+        ;
+
+        
+    
+    
+            var marker_1c4551798e75d48894a3be2f8bc5570a = L.marker(
+                [51.4834, -0.0821],
+                {}
+            ).addTo(map_1aaba8a4dd656de46bf9c0029681b5f2);
+        
+    
+            var icon_475e33684f9d5fcd9ec4f1da06259bb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c4551798e75d48894a3be2f8bc5570a.setIcon(icon_475e33684f9d5fcd9ec4f1da06259bb7);
+        
+    
+        var popup_182df076046b6b08cc0e2f8706d2f35c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b937df49f43244616e1521511ca5dd26 = $(`<div id="html_b937df49f43244616e1521511ca5dd26" style="width: 100.0%; height: 100.0%;">Southwark: 278809 cases</div>`)[0];
+                popup_182df076046b6b08cc0e2f8706d2f35c.setContent(html_b937df49f43244616e1521511ca5dd26);
+            
+        
+
+        marker_1c4551798e75d48894a3be2f8bc5570a.bindPopup(popup_182df076046b6b08cc0e2f8706d2f35c)
+        ;
+
+        
+    
+    
+            var marker_327765a3988698cf63b2ee8063284951 = L.marker(
+                [51.5517, -0.1588],
+                {}
+            ).addTo(map_1aaba8a4dd656de46bf9c0029681b5f2);
+        
+    
+            var icon_47b03fe1e977539784eb51664b03f699 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_327765a3988698cf63b2ee8063284951.setIcon(icon_47b03fe1e977539784eb51664b03f699);
+        
+    
+        var popup_690d206dc91efc6f25d944a5b7e0a7b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f456a92e4cd5f31aaa9052f346dfb09 = $(`<div id="html_8f456a92e4cd5f31aaa9052f346dfb09" style="width: 100.0%; height: 100.0%;">Camden: 275147 cases</div>`)[0];
+                popup_690d206dc91efc6f25d944a5b7e0a7b2.setContent(html_8f456a92e4cd5f31aaa9052f346dfb09);
+            
+        
+
+        marker_327765a3988698cf63b2ee8063284951.bindPopup(popup_690d206dc91efc6f25d944a5b7e0a7b2)
+        ;
+
+        
+    
+    
+            var marker_9c28182b19a3eef3aed4e0145cccab52 = L.marker(
+                [51.5255, 0.0352],
+                {}
+            ).addTo(map_1aaba8a4dd656de46bf9c0029681b5f2);
+        
+    
+            var icon_45a244c77fbfa400cbf8c50c6c704777 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c28182b19a3eef3aed4e0145cccab52.setIcon(icon_45a244c77fbfa400cbf8c50c6c704777);
+        
+    
+        var popup_8a4183008c29f8f7a6643ebe86af7833 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a982f1be9068ffaccd4aecd2ab078134 = $(`<div id="html_a982f1be9068ffaccd4aecd2ab078134" style="width: 100.0%; height: 100.0%;">Newham: 262024 cases</div>`)[0];
+                popup_8a4183008c29f8f7a6643ebe86af7833.setContent(html_a982f1be9068ffaccd4aecd2ab078134);
+            
+        
+
+        marker_9c28182b19a3eef3aed4e0145cccab52.bindPopup(popup_8a4183008c29f8f7a6643ebe86af7833)
+        ;
+
+        
+    
+    
+            var marker_e93046dc5676944f7e084a7f78758dfe = L.marker(
+                [51.3762, -0.0982],
+                {}
+            ).addTo(map_1aaba8a4dd656de46bf9c0029681b5f2);
+        
+    
+            var icon_5ddf76762ce7add4284b26fc41d8290d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e93046dc5676944f7e084a7f78758dfe.setIcon(icon_5ddf76762ce7add4284b26fc41d8290d);
+        
+    
+        var popup_6aae443e34b47a7b88877cc072591b9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e34cb898a36a16506fc53dd0eef33f42 = $(`<div id="html_e34cb898a36a16506fc53dd0eef33f42" style="width: 100.0%; height: 100.0%;">Croydon: 260294 cases</div>`)[0];
+                popup_6aae443e34b47a7b88877cc072591b9f.setContent(html_e34cb898a36a16506fc53dd0eef33f42);
+            
+        
+
+        marker_e93046dc5676944f7e084a7f78758dfe.bindPopup(popup_6aae443e34b47a7b88877cc072591b9f)
+        ;
+
+        
+    
+    
+            var marker_be6b10d5e93d0ec030c4946327e623a2 = L.marker(
+                [51.5127, -0.3059],
+                {}
+            ).addTo(map_1aaba8a4dd656de46bf9c0029681b5f2);
+        
+    
+            var icon_59e7c51034a71dcdf41bdb5af75c17da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be6b10d5e93d0ec030c4946327e623a2.setIcon(icon_59e7c51034a71dcdf41bdb5af75c17da);
+        
+    
+        var popup_2fdf9bac91adb5bc0e8d30ff9db6c12c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1c79f2e52cfdb33124ebfd35ca7a31a = $(`<div id="html_b1c79f2e52cfdb33124ebfd35ca7a31a" style="width: 100.0%; height: 100.0%;">Ealing: 251562 cases</div>`)[0];
+                popup_2fdf9bac91adb5bc0e8d30ff9db6c12c.setContent(html_b1c79f2e52cfdb33124ebfd35ca7a31a);
+            
+        
+
+        marker_be6b10d5e93d0ec030c4946327e623a2.bindPopup(popup_2fdf9bac91adb5bc0e8d30ff9db6c12c)
+        ;
+
+        
+    
+    
+            var marker_6cee116358574a13290653a2eb63a7b6 = L.marker(
+                [51.5465, -0.1058],
+                {}
+            ).addTo(map_1aaba8a4dd656de46bf9c0029681b5f2);
+        
+    
+            var icon_561ef615f25feddef2f7041f4ea65a6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6cee116358574a13290653a2eb63a7b6.setIcon(icon_561ef615f25feddef2f7041f4ea65a6f);
+        
+    
+        var popup_c5021a7052e58d7848feff69e0d0844e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b94b78507aa86b98c12f8bc5ad00b17 = $(`<div id="html_6b94b78507aa86b98c12f8bc5ad00b17" style="width: 100.0%; height: 100.0%;">Islington: 230286 cases</div>`)[0];
+                popup_c5021a7052e58d7848feff69e0d0844e.setContent(html_6b94b78507aa86b98c12f8bc5ad00b17);
+            
+        
+
+        marker_6cee116358574a13290653a2eb63a7b6.bindPopup(popup_c5021a7052e58d7848feff69e0d0844e)
+        ;
+
+        
+    
+    
+            var marker_80572f0ddaf68baee893484a236b2781 = L.marker(
+                [51.5099, -0.0059],
+                {}
+            ).addTo(map_1aaba8a4dd656de46bf9c0029681b5f2);
+        
+    
+            var icon_697d5a1c5f790b674e591db42602bd9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_80572f0ddaf68baee893484a236b2781.setIcon(icon_697d5a1c5f790b674e591db42602bd9c);
+        
+    
+        var popup_e195f8acd423569256fe2b9d86ce1612 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d1735483945012020b332f203f4b848 = $(`<div id="html_7d1735483945012020b332f203f4b848" style="width: 100.0%; height: 100.0%;">Tower Hamlets: 228613 cases</div>`)[0];
+                popup_e195f8acd423569256fe2b9d86ce1612.setContent(html_7d1735483945012020b332f203f4b848);
+            
+        
+
+        marker_80572f0ddaf68baee893484a236b2781.bindPopup(popup_e195f8acd423569256fe2b9d86ce1612)
+        ;
+
+        
+    
+    
+            var marker_1de23d4ea0d406883594b28a7f81610a = L.marker(
+                [51.5635, -0.2674],
+                {}
+            ).addTo(map_1aaba8a4dd656de46bf9c0029681b5f2);
+        
+    
+            var icon_ead286f00b0be78be541b5104c7e497e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1de23d4ea0d406883594b28a7f81610a.setIcon(icon_ead286f00b0be78be541b5104c7e497e);
+        
+    
+        var popup_0306e2f932787c965064c6354c37f64b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1563b89dbf04007a0dc7922cf6785f2 = $(`<div id="html_d1563b89dbf04007a0dc7922cf6785f2" style="width: 100.0%; height: 100.0%;">Brent: 227551 cases</div>`)[0];
+                popup_0306e2f932787c965064c6354c37f64b.setContent(html_d1563b89dbf04007a0dc7922cf6785f2);
+            
+        
+
+        marker_1de23d4ea0d406883594b28a7f81610a.bindPopup(popup_0306e2f932787c965064c6354c37f64b)
+        ;
+
+        
+    
+</script>
+</html>
